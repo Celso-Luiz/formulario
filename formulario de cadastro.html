@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>--Formulário De Cadastro--</title>
+	<meta charset="utf-8" />
+	<link href="CadastroEstilo.css" rel="stylesheet" media="all" />
+	<script src="JavaScript1.js"></script>
+</head>
+
+<body>
+<form name="meu_form">
+
+  <h1>Cadastro</h1>
+  
+   <label for="nome">Nome</label>
+   <input name="nome" type="text" id="nomeid" placeholder="Digite seu Nome" required="required" /><br>
+   
+   <label for="email">Email</label>
+   <input name="email" type="email" id="emailid" placeholder="fulano@mail.com" /><br>
+   
+   <label for="cpf">CPF</label>
+   <input name="cpf" type="text" id="cpfid" placeholder="Ex.: 000.000.000-00" /><br>
+   
+   <label for="fone">Fone</label>
+   <input name="fone" type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" /><br>
+   
+   <label for="cep">CEP</label>
+   <input name="cep" type="text" id="cepid" placeholder="Ex.: 00000-000" /><br>
+   
+   <label for="nome">Logradouro</label>
+   <input name="logradouro" type="text" id="logradouroid" placeholder="Rua/Av" required="required" /><br>
+   
+   <label for="numero">Numero</label>
+   <input name="numero" type="number" id="numeroid" placeholder="Nº000" /><br>
+   
+   <label for="bairro">Bairro</label>
+   <input name="bairro" type="text" id="bairroid" placeholder="Bairro" required="required" /><br>
+   
+   <label for="cidade">Cidade</label>
+   <input name="cidade" type="text" id="cidadeid" placeholder="Cidade" required="required" /><br>
+   
+   <label for="estado">Estado</label>
+   <input name="estado" type="text" id="estadoid" placeholder="Estado" required="required" /><br>
+   
+
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+  <input type="reset" class="apagar" value="Apagar" />
+  
+</form>
+</body>
+</html>
